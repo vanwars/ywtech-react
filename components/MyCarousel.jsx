@@ -17,7 +17,7 @@ export default function MyCarousel() {
     // Note: When you're using the AntD carousel, either the carousel or the carousel's parent
     // needs to be assign a width.
     return (
-        <Carousel style={carouselStyle}>
+        <Carousel style={carouselStyle} autoplay={true}>
                 <div>
                     <img style={imageStyle} src="https://picsum.photos/1200/300?id=9" alt="Alt text" />
                 </div>
