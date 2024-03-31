@@ -1,13 +1,14 @@
 {
   "name": "intro-to-react",
   "version": "1.0.0",
-  "homepage": "https://vanwars.github.io/ywtech-react",
+  "homepage": "./",
   "description": "",
   "main": "main.js",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "vite dev",
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
