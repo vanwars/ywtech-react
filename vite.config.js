@@ -1,4 +1,4 @@
-// vite.config.js
+// Custom settings needed for gh-pages compatibility
 import { defineConfig } from "vite";
 
 export default defineConfig({
