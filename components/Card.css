@@ -1,0 +1,47 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.card,
+.card img {
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    margin-top: 5px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card:hover img {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 1000px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cards {
+        grid-template-columns: auto;
+    }
+}

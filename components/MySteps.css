@@ -1,0 +1,19 @@
+.wizard {
+    background-color: #F6F6F6;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.step-detail {
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.step-detail nav {
+    display: flex;
+    gap: 20px;
+}
